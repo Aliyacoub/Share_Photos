@@ -103,6 +103,7 @@ img.card-img-top:active, img.card-img-top:focus {
 }
 
 img.img-view:active, img.img-view:focus {
+  object-fit: cover !important;
   position: absolute;
   transform: scale(1.7) !important;
 }
@@ -114,6 +115,7 @@ img.img-view {
 }
 
 img.imge-card:hover {
+  object-fit: cover !important;
   transform-origin: top left !important;
 }
 
